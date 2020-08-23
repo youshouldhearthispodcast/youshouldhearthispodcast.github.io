@@ -13,7 +13,7 @@ subtitle: ""
 lang: en-us
 author: John Purple
 copyright: "CC-BY 4.0"
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://youshouldhearthispodcast" # the base hostname & protocol for your site
 twitter_username: youshouldhearthispodcast
 github_username:  youshouldhearthispodcast
