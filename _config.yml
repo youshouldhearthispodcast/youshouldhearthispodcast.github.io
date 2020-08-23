@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Infusing Computing Webseries
-email: wiobyrne@gmail.com
-description: "The Infusing Computing Webseries explores the opportunities to embed computational thinking (CT) into middle school and high school classrooms."
-subtitle: "A discussion from the intersection of computational thinking & the content areas."
+title: We Think You Should Hear This
+email: youshouldhearthispodcast@gmail.com
+description: ""
+subtitle: ""
 lang: en-us
-author: Ian O'Byrne
+author: John Purple
 copyright: "CC-BY 4.0"
-baseurl: "/infusing-computing-pod" # the subpath of your site, e.g. /blog
-url: "https://wiobyrne.github.io" # the base hostname & protocol for your site
-twitter_username: wiobyrne
-github_username:  wiobyrne
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://youshouldhearthispodcast" # the base hostname & protocol for your site
+twitter_username: youshouldhearthispodcast
+github_username:  youshouldhearthispodcast
 
 permalink: /:year/:title.html
 
