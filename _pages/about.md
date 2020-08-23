@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "About Infusing Computing"
+title: "About We Think You Should Hear This"
 permalink: /about
 ---
 
-Infusing Computing is an NSF-funded research program delivering computing-infused, STEM-focused professional development to middle and high school teachers in order to improve computing learning across North Carolina and South Carolina. 
+Infusing Computing is an NSF-funded research program delivering computing-infused, STEM-focused professional development to middle and high school teachers in order to improve computing learning across North Carolina and South Carolina.
 
 The purpose of this podcast is to help disseminate materials from the project more accessible and approachable for all. We figued that no one would pay attention to webinars. We also believe that webinars are generally only of interest to project participants...but we wanted to make all of these materials available for anyone that would be interested. So...we rolled up our sleeves and reimagined our dissemination as an open podcast. So welcome to the podcast!
 
@@ -22,5 +22,4 @@ The end result is a podcast series that focuses on four segments:
 
 ### The People
 
-Our project is led by a collective is led by a collaborative research team from NC State and The Citadel. You can learn more about us at [our website](https://www.infusingcomputing.com/program-overview.html). 
-
+Our project is led by a collective is led by a collaborative research team from NC State and The Citadel. You can learn more about us at [our website](https://www.infusingcomputing.com/program-overview.html).
