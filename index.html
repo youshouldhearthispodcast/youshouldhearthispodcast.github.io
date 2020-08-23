@@ -1,31 +1,28 @@
 ---
 layout: default
 ---
+<p>Welcome to the <strong>Infusing Computing Webseries</strong>. This podcast explores the opportunities to embed computational thinking (CT) into middle school and high school classrooms. This is part of an NSF-funded research program delivering computing-infused, STEM-focused professional development to middle and high school teachers in order to improve computing learning across North Carolina and South Carolina. You can learn more about this project or get in touch with us on <a href="https://www.infusingcomputing.com/">our website</a>.</p>
 
-<h2 class="label">Posts Show Here as list</h2>
+<p>Subscribe on <a href="https://podcasts.apple.com/us/podcast/infusing-computing-webseries/id1493135678?mt=2">iTunes</a>, <a href="https://podcasters.spotify.com/podcast/4ZVznSTiY6PxQu0rQH6Hpu/overview/">Spotify</a>, <a href="https://play.google.com/music/listen?u=0#/ps/Iyrpoaswrrtwm4yajqxj2d3wkyy/">Google Play Music</a>…or the podcast catcher of your choice.</p>
 
-<div class="post-list">
-    {% for post in site.posts %}
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{ post.excerpt }} </p>    
-    {% endfor %}
-</div>
-
-<h2 class="label">Posts Show Here as Cards</h2>
-
+<p>You can also review all episodes <a href="https://archive.org/details/infusingcomputing/">here on the Internet Archive</a></p>
 <div class="card-grid">
 <!--     -->
     
     {% assign first_post = site.posts.first %}
-    <div class="cards">
-        <h2>
-          <a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
-        </h2>
-        <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{ first_post.excerpt }} </p>  
+    <div class="cards first">
+        <h1 class="label reversed">Latest Episode</h1>
+        <div class="center-content">
+            <div class="seven columns">
+                <h2><a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a></h2>
+                
+                <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
+                <p>{{ first_post.summary }} </p> 
+            </div>
+            <div class="four columns center-content">
+                <a href="{{ first_post.file }}" class="button button-primary" download="{{ first_post.title }}">Download Now</a>    
+            </div>
+        </div>            
         </div>
     
     {% for post in site.posts offset:1 %}
@@ -34,76 +31,11 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{ post.excerpt }} </p>  
+        <p>{{ post.summary }} </p>
         </div>
     {% endfor %}
     
- <!--   <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+</div>
 
- <p></p>  
-        </div>
-    
-    <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
- <p></p>  
-        </div>
-    
-        <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
- <p></p>  
-        </div>
-    
-        <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
- <p></p>  
-        </div>
-    
-        <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
- <p></p>  
-        </div>
-    
-        <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
- <p></p>  
-        </div>
-            <div class="cards">
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/08/15/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-        <p class="meta">Aug 15, 2016</p>
-        <p></p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
- <p></p>  
-        </div>
-</div>-->
+<div class="container center-content extra-padding">
+</div>

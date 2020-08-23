@@ -6,19 +6,30 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jekyll Skeleton
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-twitter_username: timklapdor
-github_username:  timklapdor
+title: Infusing Computing Webseries
+email: wiobyrne@gmail.com
+description: "The Infusing Computing Webseries explores the opportunities to embed computational thinking (CT) into middle school and high school classrooms."
+subtitle: "A discussion from the intersection of computational thinking & the content areas."
+lang: en-us
+author: Ian O'Byrne
+copyright: "CC-BY 4.0"
+baseurl: "/infusing-computing-pod" # the subpath of your site, e.g. /blog
+url: "https://wiobyrne.github.io" # the base hostname & protocol for your site
+twitter_username: wiobyrne
+github_username:  wiobyrne
 
 permalink: /:year/:title.html
 
+#Timezone
+timezone: United States/New York
+
+#Setup for Pages
+include: ['_pages']
 
 # Build settings
 markdown: kramdown
+
+#Exclude local build settings
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+
+theme: jekyll-theme-minimal

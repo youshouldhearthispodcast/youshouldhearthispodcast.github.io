@@ -5,8 +5,8 @@
 }
 
 header {
-    min-height: 20vh;
-    max-height: 35vh;
+    min-height: 50vh;
+    max-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,15 @@ header a {
 
 header a:hover {
     color: $header-color-link;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.logo {
+    padding: 0px;
+    height: 60vh;    
 }
 
 article {

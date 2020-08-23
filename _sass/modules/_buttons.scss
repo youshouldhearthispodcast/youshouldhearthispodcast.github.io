@@ -87,6 +87,14 @@ button.button-primary {
   border-color: $primary-color;
 }
 
+
+.button.button-secondary,
+button.button-secondary {
+  color: #fff;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
 input {
   &[type="submit"].button-primary,
   &[type="reset"].button-primary,
@@ -102,6 +110,13 @@ button.button-primary:hover {
   color: #fff;
   background-color: $secondary-color;
   border-color: $secondary-color;
+}
+
+.button.button-secondary:hover,
+button.button-secondary:hover {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
 }
 
 input {
@@ -144,4 +159,9 @@ input {
     box-shadow: none;
     box-sizing: border-box;
   }
+}
+
+.large {
+    padding-left: 5em !important;
+    padding-right: 5em !important;
 }
