@@ -1,5 +1,5 @@
 {
-	"name": "Link Rot",
+	"name": "We Think You Should Hear This",
 	"icons": [
 		{
 			"src": "\/images\/android-chrome-192x192.png",
@@ -12,6 +12,6 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#323232",
+	"theme_color": "#000",
 	"display": "standalone"
 }
